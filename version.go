@@ -4,5 +4,8 @@
 
 package sysinfo
 
-// Version of the sysinfo library.
-const Version = "1.1.3"
+import "github.com/earthboundkid/versioninfo/v2"
+
+func Get() string {
+	return versioninfo.Short()
+}
