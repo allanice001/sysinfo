@@ -44,6 +44,6 @@ func (si *SysInfo) GetSysInfo() {
 	si.getNetworkInfo()
 
 	// Software info
-	si.getOSInfo()
+	si.GetOSInfo()
 	si.getKernelInfo()
 }
